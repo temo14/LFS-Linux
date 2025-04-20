@@ -19,5 +19,5 @@ w
 q
 EOF
 
-sudo mkfs -t ext4 -F "${LFS_DISK}1"
-sudo mkfs -t ext4 -F "${LFS_DISK}2"
+sudo mkfs -t ext2 -F "${LFS_DISK}1"
+sudo mkfs -t ext2 -F "${LFS_DISK}2"
